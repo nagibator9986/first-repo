@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"/>
+    <link rel="stylesheet" href="./css/adaptive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li class="active"><a href="#">Fertilizer</a></li>
+                    <li><a href="#">Guide</a></li>
+                </ul>
+
+                <a href="https://youtu.be/FEhEkRMotgg?si=VtcyXiVJuE-a7kal" target="_blank">
+                    <img src="./images/logo.png" alt="logotype" class="logo">
+                </a>
+
+                <div class="mini-block">
+                    <img src="./images/clarity_search-line.png" alt="search" class="search">
+                    <img src="./images/user-logo.png" alt="user">
+                    <img src="./images/shopping-cart.png" alt="cart">
+                </div>
+            </nav>
+
+            <div class="hero container">
+                <div class="hero--info">
+                    <h1>Happiness blooms from within</h1>
+                    <p>Our environment, the world in which we live and work, is a mirror of our attitudes and expectations.</p>
+                    <button class="btn">Shop now</button>
+                    <button class="btn--1">Explore plantsㅤ→</button>
+                </div>
+                <div>
+                    <img src="./images/plants.svg" alt="plants" class="img">
+                    <button class="new-button">New</button>
+                    <a href="#text-and-button">
+                        <button class="featured-button">Featured</button>
+                    </a>
+                    <button class="popular-button">Popular</button>
+                    <div class="flower--info">
+                        <h1>Anthurium Flower</h1>
+                        <p>The flower of human being. It has meaningfulㅤof fact that the plant always grow whatever season and weather...</p>
+                        <button>READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <section class="section container">
+            <div id="text-and-button">
+                <h1 class="text-featured">Featured</h1>
+                <button id="view-all-button-1">view all</button>
+            </div>
+            <div id="container-section-1">
+                <div class="slider-container">
+                    <span onclick="slideRight()" class="button">
+                        <div class="left-arrow"></div>
+                    </span>
+                    <div id="slider">
+                        <div class="slide">
+                            <img src="./images/plant1.svg" alt="plant 1">
+                            <div class="name-and-price">
+                                <h1>Peperomia Ginny</h1>
+                                <p>$25</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-1">Buy</button>
+                                <div class="modal" id="my-modal">
+                                    <div class="modal__box">
+                                        <button class="modal__close-btn" id="close-my-modal-btn">
+                                            <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M2.09082 0.03125L22.9999 22.0294L20.909 24.2292L-8.73579e-05 2.23106L2.09082 0.03125Z"
+                                                    fill="#333333" />
+                                                <path d="M0 22.0295L20.9091 0.0314368L23 2.23125L2.09091 24.2294L0 22.0295Z" fill="#333333" />
+                                            </svg>
+                                        </button>
+                                        <h1>Это скам, вы ничего не сможете у нас купить</h1>
+                                        <p>При покупке данного товара, мы вам ничего не отправим, так как это лишь сайт для зачета. К слову очень надеюсь, что этот сайт все же заслуженно получил 100 баллов в будущем, ведь сколько бессоных ночей автор данной верстки провел делая это, сколько разных песен из мультфильмов автор успел послушать.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant2.svg" alt="plant 2">
+                            <div class="name-and-price">
+                                <h1>Bird’s Nest Fern</h1>
+                                <p>$45</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-2">Buy</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant3.svg" alt="plant 3">
+                            <div class="name-and-price">
+                                <h1>Large Majesty Palm</h1>
+                                <p>$52</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-3">Buy</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant4.svg" alt="plant 4">
+                            <div class="name-and-price">
+                                <h1>Pet Friendly Plant</h1>
+                                <p>$30</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-4">Buy</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant5.svg" alt="plant 5">
+                            <div class="name-and-price">
+                                <h1>Bleeding Heart</h1>
+                                <p>$25</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-5">Buy</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant6.svg" alt="plant 6">
+                            <div class="name-and-price">
+                                <h1>Ghost Plant</h1>
+                                <p>$15</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-6">Buy</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant7.svg" alt="plant 7">
+                            <div class="name-and-price">
+                                <h1>Bird of Paradise</h1>
+                                <p>$50</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-7">Buy</button>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./images/plant8.svg" alt="plant 8">
+                            <div class="name-and-price">
+                                <h1>Monkey Puzzle Tree</h1>
+                                <p>$120</p>
+                            </div>
+                            <div class="pot-button">
+                                <div class="text-pot-color">
+                                    <p>Pot color</p>
+                                    <div class="pot-color">
+                                        <div class="circle-brown"></div>
+                                        <div class="circle-pink"></div>
+                                        <div class="circle-grey"></div>
+                                        <div class="circle-orange"></div>
+                                    </div>
+                                </div>
+                                <button id="button-buy-8">Buy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <span onclick="slideLeft()" class="button">
+                        <div class="right-arrow"></div>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-section container">
+            <div class="search-line">
+                <span class="search-icon material-symbols-outlined">search</span>
+                <input type="search" id="find" placeholder="Search flowers..." onkeyup="search()">
+            </div>
+        </section>
+
+        <section class="section-new-arrivals container">
+            <div class="text-and-button">
+                <h1 class="text-featured">Colorful New Arrivals</h1>
+                <button id="view-all-button">view all</button>
+            </div>
+            <div class="new-arrivals-body">
+                <div class="cards grid">
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="./images/image 14.svg" alt="plant 1">
+                        </div>
+                        <div class="card-content">
+                            <h1 class="card-heading">Blue Lily</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam molestias quam repellat quaerat, dolorum velit. Adipisci nemo inventore iusto.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="./images/image 15.svg" alt="plant 1">
+                        </div>
+                        <div class="card-content">
+                            <h1 class="card-heading">Picture two</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam molestias quam repellat quaerat, dolorum velit. Adipisci nemo inventore iusto.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="./images/image 16.svg" alt="plant 1">
+                        </div>
+                        <div class="card-content">
+                            <h1 class="card-heading">Picture three</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam molestias quam repellat quaerat, dolorum velit. Adipisci nemo inventore iusto.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-box">
+                            <img src="./images/image 17.svg" alt="plant 1">
+                        </div>
+                        <div class="card-content">
+                            <h1 class="card-heading">Picture four</h1>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam molestias quam repellat quaerat, dolorum velit. Adipisci nemo inventore iusto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-plant-stands container">
+            <div class="container">
+                <div class="text-and-button">
+                    <div class="text-featured">Plant stands</div>
+                </div>
+            </div>
+            <div class="plant-stands-body">
+                <div class="container-perspective">
+                    <div class="card-stand">
+                        <div class="front">
+                            <img src="./images/image 5.svg" alt="image 1">
+                        </div>
+                        <div class="back">
+                            <img src="./images/cat meme.jpg" alt="cat with two dogs">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-perspective">
+                    <div class="card-stand">
+                        <div class="front">
+                            <img src="./images/image 6.svg" alt="image 2">
+                        </div>
+                        <div class="back">
+                            <img src="./images/meme it.jpg" alt="mem about laugh">
+                        </div>
+                    </div>
+                </div>
+                <div class="container-perspective">
+                    <div class="card-stand">
+                        <div class="front">
+                            <img src="./images/image 7.svg" alt="image 3">
+                        </div>
+                        <div class="back">
+                            <img src="./images/meme it 1.jpg" alt="mem about rewrite code">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="free-shopping-service container">
+        <div class="background-img">
+            <div class="position-center">
+                <div class="text-shopping-service">
+                    <h1>Free Shipping Services</h1>
+                    <p>*only for the same region</p>
+                </div>
+                <div class="contact-and-email">
+                    <div class="contact">
+                        <img src="./images/call.svg" alt="call icon">
+                        <p>+62 1189-2719-00</p>
+                    </div>
+                    <div class="mail">
+                        <img src="./images/mail.svg" alt="mail icon">
+                        <p>order@platify.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="visit-maps">
+            <div class="visit-us-block">
+                <h1>
+                    <a href="https://youtu.be/yiEFHgN84Fk?si=Z-rz2s95LuGcf_hA&t=88" target="_blank">Visit us</a>
+                </h1>
+                <p>Gekikara Street 16, Atalanta <br> 1327 Block M <br> Mardial, Sigure <br> T2G 0T2</p>
+                <p><b>Open day</b> : 11am–5:30pm everyday</p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.7401126896484!2d76.92947657601881!3d43.25686827112372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836eba50dc1d0d%3A0xd4c161a3ca935ec6!2z0L_RgC3Rgi4g0KHQtdC50YTRg9C70LvQuNC90LAgNTIxLCDQkNC70LzQsNGC0YsgMDUwMDAw!5e0!3m2!1sru!2skz!4v1732613284734!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+        </footer>
+
+    <script src="./javascript/carousel.js"></script>
+    <script src="./javascript/search.js"></script>
+    <script src="./javascript/youtubeButton.js"></script>
+    <script src="./javascript/buyButton.js"></script>
+    <script defer src="./javascript/modalWindow.js"></script>
+</body>
+</html>

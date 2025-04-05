@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.cdnfonts.com/css/chillax?styles=134676,134673,134674,134675,134677,134672');
+@import url(https://db.onlinewebfonts.com/c/bf7defac1311d97d5f5cf146889ee370?family=Steppe);
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    background-color: #004F44;
+    width: 100%;
+    height: 850px;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.menu {
+    margin-top: 50px;
+}
+
+header nav {
+    float: left;
+    width: 30%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    transition: all 500ms ease;
+}
+
+header nav ul li a:hover {
+    color: #6f906c;
+}
+
+header nav img.logo {
+    position: absolute;
+    top: 21px;
+    right: 660px;
+}
+
+header nav div.mini-block {
+    position: absolute;
+    top: 55px;
+    right: 140px;
+    width: 92px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero--info {
+    width: 450px;
+    padding-top: 250px;
+}
+
+.hero--info h1 {
+    color: #EFF7F5;
+    font-size: 62px;
+    font-family: 'Chillax', sans-serif;
+    font-weight: 500;
+}
+
+.hero--info p {
+    color: #EFF7F5;
+    font-size: 18px;
+    font-family: 'Chillax', sans-serif;
+    font-weight: 300;
+    position: relative;
+    top: 40px;
+}
+
+.btn {
+    position: relative;
+    top: 72px;
+    width: 156px;
+    height: 59px;
+    background-color: #EFF7F5;
+    color: #004F44;
+    cursor: pointer;
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+}
+
+.btn--1 {
+    position: relative;
+    background-color: #004F44;
+    color: #EFF7F5;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Steppe";
+    top: 72px;
+    left: 43px;
+}
+
+.img {
+    position: absolute;
+    top: 200px;
+    left: 725px;
+}
+
+.new-button {
+    position: absolute;
+    top: 210px;
+    left: 775px;
+    background-color: #004F44;
+    color: #EFF7F5;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Steppe";
+    width: 59px;
+    height: 28px;
+}
+
+.featured-button {
+    position: absolute;
+    top: 210px;
+    left: 1000px;
+    background-color: #004F44;
+    color: #EFF7F5;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Steppe";
+    width: 90px;
+    height: 28px;
+}
+
+.popular-button {
+    position: absolute;
+    top: 470px;
+    left: 775px;
+    background-color: #004F44;
+    color: #EFF7F5;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: "Steppe";
+    width: 82px;
+    height: 28px;
+}
+
+.flower--info {
+    width: 327px;
+    padding-left: 843px;
+    position: absolute;
+    bottom: 25px;
+}
+
+.flower--info h1 {
+    color: #EFF7F5;
+    font-family: "Steppe";
+    font-weight: 100;
+    width: 248px;
+    height: 40px;
+    font-size: 28px;
+}
+
+.flower--info p {
+    color: #EFF7F5;
+    font-size: 14px;
+    font-family: "Steppe";
+    font-weight: 100;
+    position: relative;
+    height: 55px;
+}
+
+.flower--info button {
+    position: relative;
+    top: 10px;
+    width: 327px;
+    height: 49px;
+    background-color: #FFFFFF;
+    color: #004F44;
+    cursor: pointer;
+    border: none;
+    font-family: "Steppe";
+    font-size: 12px;
+}
+
+.text-and-button {
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-and-button {
+    height: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-featured {
+    position: relative;
+    font-family: "Steppe";
+    color: #004F44;
+    font-size: 40px;
+    top: 99px;
+}
+
+#view-all-button-1 {
+    position: relative;
+    background-color: #FFFFFF;
+    color: #004F44;
+    font-family: "Steppe";
+    font-size: 24px;
+    border: none;
+    top: 67px;
+    cursor: pointer;
+}
+
+#view-all-button {
+    position: relative;
+    background-color: #FFFFFF;
+    color: #004F44;
+    font-family: "Steppe";
+    font-size: 24px;
+    border: none;
+    top: 67px;
+    cursor: pointer;
+}
+
+/* slider for plants in first section */
+
+#container-section-1 {
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+.slider-container {
+    height: 475px;
+    width: 79vw;
+    max-width: 1400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container .button {
+    position: absolute;
+    top: calc(50% - 30px);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.slider-container .button:hover {
+    transform: scale(1.2);
+}
+
+.slider-container .button.inactive {
+    border-color: #282828;
+}
+
+.slider-container .button:first-of-type {
+    left: 20px;
+}
+
+.slider-container .button:last-of-type {
+    right: 20px;
+}
+
+.left-arrow, 
+.right-arrow {
+  display: inline-flex;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.left-arrow::before,
+.right-arrow::before,
+.left-arrow::after,
+.right-arrow::after {
+  display: inline-flex;
+  position: absolute;
+  content: '';
+}
+
+.left-arrow::before,
+.right-arrow::before {
+  top: 22px;
+  left: 15px;
+  width: 20px;
+  height: 2px;
+  background-color: #004F44;
+}
+
+.left-arrow::after,
+.right-arrow::after {
+  width: 10px;
+  height: 10px;
+  top: 16.5px;
+}
+
+.left-arrow::after {
+    left: 15px;
+    border-top: 3px solid #004F44;
+    border-left: 3px solid #004F44;
+    transform: rotate(-45deg);
+}
+
+.right-arrow::after {
+    right: -15px;
+    border-top: 3px solid #004F44;
+    border-right: 3px solid #004F44;
+    transform: rotate(45deg);
+}
+
+.left-arrow:hover::before,
+.right-arrow:hover::before {
+  background-color: #1A3516;
+}
+
+.left-arrow:hover::after {
+  border-top: 3px solid #1A3516;
+  border-left: 3px solid #1A3516;
+}
+
+.right-arrow:hover::after {
+  border-top: 3px solid #1A3516;
+  border-right: 3px solid #1A3516;
+}
+
+.slider-container #slider {
+    display: flex;
+    width: 1000%;
+    height: 100%;
+    transition: all .5s;
+}
+
+.slider-container #slider .slide {
+    height: 475px;
+    margin: auto 12px;
+    box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
+    display: grid;
+}
+
+@media only screen and (min-width: 1100px) {
+    .slider-container .slider .slide {
+        width: calc(2.5% - 20px);
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .slider-container .slider .slide {
+        width: calc(3.3333333% - 20px);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .slider-container .slider .slide {
+        width: calc(5% - 20px);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .slider-container .slider .slide {
+        width: calc(10% - 20px);
+    }
+}
+
+.name-and-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-and-price h1 {
+    font-family: "Steppe";
+    color: #004F44;
+    font-size: 20px;
+}
+
+.name-and-price p {
+    font-family: "Steppe";
+    color: #004F44;
+    font-size: 20px;
+}
+
+.pot-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-pot-color {
+    font-family: "Steppe";
+    color: #9EA9A7;
+    font-size: 16px;
+}
+
+.pot-color {
+    display: flex;
+    justify-content: space-between;
+    width: 79px;
+    padding-top: 8px; 
+}
+
+.pot-color .circle-brown {
+    background: #39362E;
+    border: none;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+
+.pot-color .circle-pink {
+    background: #F3A195;
+    border: none;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+.pot-color .circle-grey {
+    background: #EFEAE6;
+    border: none;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+.pot-color .circle-orange {
+    background: #C38364;
+    border: none;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+}
+
+#button-buy-1,
+#button-buy-2,
+#button-buy-3,
+#button-buy-4,
+#button-buy-5,
+#button-buy-6,
+#button-buy-7,
+#button-buy-8 {
+    background-color: #004F44;
+    color: #FFFFFF;
+    font-family: "Steppe";
+    width: 79px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+/* modal window */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 99998;
+    background-color: rgba(0, 0, 0, .3);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal__box {
+    position: relative;
+    max-width: 500px;
+    padding: 45px;
+    z-index: 1;
+    margin: 30px 15px;
+    background-color: white;
+    box-shadow: 0px 0px 17px -7px rgba(34, 60, 80, 0.2);
+    transform: scale(0);
+    transition: transform .8s;
+}
+
+.modal__close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modal__box h1 {
+    color: #0A1E1B;
+    font-family: "Steppe";
+    font-size: 35px;
+}
+
+.modal__box p {
+    color: #0A1E1B;
+    font-family: "Steppe";
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.modal__close-btn svg path {
+    transition: fill .4s;
+}
+
+.modal__close-btn:hover svg path {
+    fill: blue;
+}
+
+.modal__close-btn:active svg path {
+    fill: rgb(186, 53, 0);
+}
+
+.modal.open {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal.open .modal__box {
+    transform: scale(1);
+}
+
+/* start of search section */
+
+.search-section {
+    background-color: #F3FFFC;
+    height: 229px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-line {
+    --padding: 14px;
+
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 10px;
+    background: #FFFFFF;
+    transition: box-shadow 0.25s;
+    border: 0.5px solid #004F44;
+}
+
+.search-line:focus-within {
+    box-shadow: 0 0 2px #004F44;
+}
+
+#find {
+    font-size: 16px;
+    font-family: "Steppe";
+    color: #004F44;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+    width: 1010px;
+}
+
+.search-input::placeholder,
+.search-icon {
+    color: #004F44;
+}
+
+/* start of colorful new arrival section */
+
+.new-arrivals-body {
+    font-family: "Steppe";
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem 0;
+}
+
+.img-box img {
+    display: block;
+    width: 100%;
+    height: 404px;
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 2rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.card {
+    display: block;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    transition: 0.2s;
+    position: relative;
+}
+
+.card-content {
+    position: absolute;
+    background-color: rgb(0 0 0/50%);
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 10%;
+    padding: 0.3rem;
+    overflow: hidden;
+    transition: 0.7s;
+}
+
+.card-content h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.card-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 1.2rem;
+}
+
+.card-content:hover {
+    height: 70%;
+    transition: 0.7s;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* start of plant stands */
+
+.section-plant-stands {
+    width: 100%;
+    background: #F3FFFC;
+}
+
+.plant-stands-body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Steppe";
+    color: rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-perspective {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+    padding: 30px;
+}
+
+.container-perspective:hover > .card-stand {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card-stand {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front img {
+    border-radius: 1rem;
+}
+
+.back {
+    background-color: #467F6E;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.back img {
+    width: 350px;
+    height: 500px;
+    border-radius: 1rem;
+}
+
+/* the start of free shipping services */
+
+.background-img {
+    background-image: url(../images/image\ 13.svg);
+    background-position: center;
+    display: flex;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.text-shopping-service {
+    padding-top: 180px;
+    padding-left: 50px;
+    height: 80px;
+}
+
+.text-shopping-service h1 {
+    font-family: "Steppe";
+    font-size: 44px;
+    color: #9C6955;
+}
+
+.text-shopping-service p {
+    font-family: "Steppe";
+    font-size: 17px;
+    color: #9C6955;
+    margin-top: 10px;
+}
+
+.contact-and-email {
+    height: 100px;
+    padding-top: 60px;
+    padding-left: 50px;
+}
+
+.contact,
+.mail {
+    display: flex;
+    padding-top: 5px;
+}
+
+.contact p,
+.mail p {
+    font-family: "Steppe";
+    font-size: 16px;
+    color: #9C6955;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+/* the start of footer */
+
+.footer {
+    width: 1160px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.visit-maps {
+    display: flex;
+}
+
+iframe {
+    width: 825px;
+    height: 20vw;
+}
+
+.visit-us-block {
+    width: 30%;
+    background-color: #56774b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.visit-us-block h1 {
+    font-family: "Steppe";
+    font-size: 24px;
+    color: #0A1E1B;
+    padding: 10px 0;
+}
+
+.visit-us-block a,
+.visit-us-block b {
+    text-decoration: none;
+    color: #0A1E1B;
+}
+
+.visit-us-block p {
+    font-family: "Steppe";
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+}

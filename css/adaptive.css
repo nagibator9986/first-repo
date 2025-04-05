@@ -1,0 +1,421 @@
+@media screen and (max-width: 1200px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    .menu {
+        margin-top: 60px;
+    }
+
+    header nav img.logo {
+        right: 500px;
+    }
+
+    header nav div.mini-block {
+        right: 100px;
+    }
+
+    .hero--info {
+        width: 400px;
+        padding-top: 230px;
+    }
+
+    .hero--info h1 {
+        font-size: 55px;
+    }
+
+    .img {
+        top: 190px;
+        left: 520px;
+        width: 580px;
+    }
+
+    .new-button {
+        top: 200px;
+        left: 565px;
+    }
+
+    .featured-button {
+        top: 200px;
+        left: 770px;
+    }
+
+    .popular-button {
+        top: 435px;
+        left: 565px;
+    }
+
+    .flower--info {
+        padding-left: 673px;
+        bottom: 2px;
+    }
+
+    .flower--info h1 {
+        font-size: 25px;
+    }
+
+    .flower--info button {
+        width: 315px;
+    }
+
+    #text-and-button,
+    .text-and-button {
+        width: 100%;
+    }
+
+    /* slider for plants in first section */
+
+    #container-section-1 {
+        height: 100vh;
+    }
+
+    .slider-container {
+        width: 76vw;
+    }
+
+    /* start of search section */
+
+    .search-section {
+        max-width: 100%;
+    }
+
+    .search-line {
+        width: 900px;
+    }
+
+    /* start of plant stands */
+
+    .section-plant-stands {
+        max-width: 100%;
+    }
+
+    .plant-stands-body {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .front,
+    .back {
+        height: 414px;
+        width: 290px;
+    }
+
+    .front img,
+    .back img {
+        width: 290px;
+    }
+
+    /* the start of free shipping services */
+
+    .background-img {
+        height: 90vh;
+    }
+
+    .text-shopping-service {
+        padding-top: 170px;
+        padding-left: 40px;
+    }
+
+    .contact-and-email {
+        padding-left: 40px;
+    }
+
+    /* the start of footer */
+
+    .footer {
+        height: 350px;
+    }
+
+    .visit-us-block p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 1112px;
+    }
+
+    header nav img.logo {
+        right: 120px;
+    }
+
+    header nav div.mini-block {
+        left: 964px;
+    }
+
+    .img {
+        left: 474px;
+    }
+
+    .new-button {
+        left: 520px;
+    }
+
+    .featured-button {
+        left: 725px;
+    }
+
+    .popular-button {
+        left: 520px;
+    }
+
+    /* slider for plants in first section */
+
+    .section {
+       padding-left: 55px; 
+    }
+
+    .slider-container {
+        width: 118vw;
+    }
+
+    /* start of search section */
+
+    .search-section {
+        padding-left: 340px;
+        overflow: hidden;
+    }
+
+    .search-line {
+        width: 100%;
+        margin-right: 345px;
+    }
+
+    /* start of colorful new arrival section */
+
+    .section-new-arrivals {
+        margin-left: 55px;
+    }
+
+    .card-content:hover {
+        height: 60%;
+    }
+
+    .section-plant-stands {
+        background: none;
+    }
+
+    /* start of plant stands */
+
+    .section-plant-stands {
+        margin-left: 55px;
+    }
+
+    /* the start of free shipping services */
+
+    .background-img {
+        margin-left: 90px;
+    }
+
+    /* the start of footer */
+
+    .footer {
+        margin-left: 55px;
+    }
+
+    iframe {
+        height: 23vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        height: 1750px;
+    }
+
+    .menu {
+        margin-top: 50px;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul li a {
+        font-size: 45px
+    }
+
+    header nav img.logo {
+        display: none;
+    }
+
+    header nav div.mini-block {
+        display: none;
+    }
+
+    .hero--info {
+        width: 100%;
+    }
+
+    .hero--info h1 {
+        font-size: 110px;
+    }
+
+    .hero--info p {
+        font-size: 40px;
+    }
+
+    .img {
+        top: 800px;
+        left: 80px;
+        width: 950px;
+    }
+
+    .btn {
+        width: 500px;
+        height: 100px;
+        font-size: 40px;
+    }
+
+    .btn--1 {
+        font-size: 40px;
+        left: 90px;
+    }
+
+    .new-button {
+        left: 150px;
+        top: 810px;
+        font-size: 40px;
+        width: 150px;
+        height: 50px;
+    }
+
+    .featured-button {
+        left: 490px;
+        top: 810px;
+        font-size: 40px;
+        width: 210px;
+        height: 50px;
+    }
+
+    .popular-button {
+        left: 150px;
+        top: 1200px;
+        font-size: 40px;
+        width: 200px;
+        height: 50px;
+    }
+
+    .flower--info {
+        padding-left: 446px;
+        top: 1150px;
+        width: 500px;
+    }
+
+    .flower--info h1 {
+        font-size: 80px;
+        width: 500px;
+        height: 190px;
+        color: #004F44;
+    }
+
+    .flower--info p {
+        font-size: 30px;
+        height: 150px;
+    }
+
+    .flower--info button {
+        width: 500px;
+        height: 70px;
+        font-size: 25px;
+    }
+
+    .text-featured {
+        font-size: 80px;
+    }
+
+    #view-all-button-1 {
+        display: none;
+    }
+
+    /* slider for plants in first section */
+
+    /* #container-section-1 {
+        height: 180vh;
+    }
+
+    .slider-container #slider .slide img {
+        width: 1500px;
+    }
+
+    .slider-container {
+        width: 200vw;
+        height: 500vw;
+    }
+
+    .slider-container #slider {
+        width: 100%;
+    }
+
+    .slider-container #slider .slide {
+    } */
+
+    /* start of colorful new arrival section */
+
+    #view-all-button {
+        display: none;
+    }
+
+    .search-section {
+        padding-left: 650px;
+    }
+
+    #find {
+        font-size: 35px;
+    }
+
+    .material-symbols-outlined {
+        font-size: 40px;
+    }
+
+    .search-line {
+        width: 800px;
+        margin-right: 650px;
+    }
+
+    .card-content h1 {
+        font-size: 3rem;
+    }
+
+    .card-content {
+        height: 15%;
+    }
+
+    .card-content p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .plant-stands-body {
+        height: 140vh;
+    }
+
+    .footer {
+        height: 500px;
+    }
+
+    .visit-us-block {
+        width: 70%;
+        height: 400px;
+    }
+
+    iframe {
+        width: 820px;
+        height: 84vw;
+    }
+
+    .visit-us-block h1 {
+        font-size: 50px;
+    }
+
+    .visit-us-block p {
+        font-size: 40px;
+        line-height: 45px;
+        height: 450px;
+    }
+}
